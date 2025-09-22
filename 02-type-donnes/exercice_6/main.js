@@ -5,3 +5,11 @@ let name = "joseph";
 let estConnect = true;
 let valeurNulle = null;
 let a;
+
+module.exports = {
+  age,
+  name,
+  estConnect,
+  valeurNulle,
+  a
+};
