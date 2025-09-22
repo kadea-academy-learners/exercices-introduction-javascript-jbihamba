@@ -1,7 +1,5 @@
-// Exercice 9
-// Écrivez votre code ici
 // Valeur totale du patrimoine
-const patrimoineTotal = 60000000 + 40000000 + 20000000; 
+const patrimoineTotal = 60000000 + 40000000 + 20000000; // 120.000.000 CDF
 
 // Répartition des catégories
 const partPremiereCategorie = 0.75 * patrimoineTotal; // 75%
@@ -26,12 +24,24 @@ const partMadameMukuna = partDeuxiemeCategorieIndividu;
 const partJoseph = partDeuxiemeCategorieIndividu;
 const partSarah = partDeuxiemeCategorieIndividu;
 
+// --- Création des variables aux noms attendus par Jest ---
+const paul = partPaul;
+const marie = partMarie;
+const eric = partEric;
+const clair = partClaire;
+const madameMukuna = partMadameMukuna;
+const joseph = partJoseph;
+const sarah = partSarah;
+
 // --- Affichage des résultats ---
 console.log("Répartition de l'héritage (en CDF) :");
-console.log("Paul :", partPaul.toLocaleString());
-console.log("Marie :", partMarie.toLocaleString());
-console.log("Éric :", partEric.toLocaleString());
-console.log("Claire :", partClaire.toLocaleString());
-console.log("Madame MUKUNA :", partMadameMukuna.toLocaleString());
-console.log("Joseph :", partJoseph.toLocaleString());
-console.log("Sarah :", partSarah.toLocaleString());
+console.log("Paul :", paul.toLocaleString());
+console.log("Marie :", marie.toLocaleString());
+console.log("Éric :", eric.toLocaleString());
+console.log("Claire :", clair.toLocaleString());
+console.log("Madame MUKUNA :", madameMukuna.toLocaleString());
+console.log("Joseph :", joseph.toLocaleString());
+console.log("Sarah :", sarah.toLocaleString());
+
+// --- Export pour Jest ---
+module.exports = { paul, marie, eric, clair, madameMukuna, joseph, sarah };
