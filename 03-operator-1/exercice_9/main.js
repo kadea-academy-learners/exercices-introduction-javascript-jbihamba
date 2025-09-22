@@ -1,12 +1,12 @@
 // Valeur totale du patrimoine
-const patrimoineTotal = 60000000 + 40000000 + 20000000; // 120.000.000 CDF
+const patrimoineTotal = 60000000 + 40000000 + 20000000; 
 
 // Répartition des catégories
-const partPremiereCategorie = 0.75 * patrimoineTotal; // 75%
-const partDeuxiemeCategorie = 0.25 * patrimoineTotal; // 25%
+const partPremiereCategorie = 0.75 * patrimoineTotal; 
+const partDeuxiemeCategorie = 0.25 * patrimoineTotal; 
 
-// --- Première catégorie : enfants ---
-// Il y a 3 parts : Paul, Marie, Alain (représenté par Éric et Claire)
+// --- Première catégorie 
+
 const partEnfant = partPremiereCategorie / 3;
 
 // Part d'Éric et Claire (ils se partagent la part d'Alain)
