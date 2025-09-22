@@ -2,11 +2,21 @@
 // Écrivez votre code ici
 let salaireMensuel = 500;
 let loyer = (30 / 100) * 500;
-let nouriture = (20 /100) * 500;
-let transport =(10/100) * 500;
-let autreDepense =50;
-autreDepense=autreDepense+25;
-let totalDepense = salaireMensuel + loyer + nouriture + transport + autreDepense;
-console.log("Total de depense est :" + totalDepense)
-let reste = salaireMensuel -totalDepense;
-console.log("Reste est :" + reste)
+let nourriture = (20 / 100) * 500;
+let transport = (10 / 100) * 500;
+let autresDepenses = 50;
+autresDepenses = autresDepenses + 25;
+let totalDepenses = salaireMensuel + loyer + nourriture + transport + autresDepenses;
+console.log("Total de depense est :" + totalDepenses);
+let reste = salaireMensuel - totalDepenses;
+console.log("Reste est :" + reste);
+
+module.exports = {
+  salaireMensuel,
+  loyer,
+  nourriture,
+  transport,
+  autresDepenses,
+  totalDepenses,
+  reste
+};
