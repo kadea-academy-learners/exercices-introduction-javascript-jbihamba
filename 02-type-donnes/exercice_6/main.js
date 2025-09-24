@@ -1,15 +1,15 @@
 // Exercice 6
 // Écrivez votre code ici
 let age = 20;
-let name = "joseph";
-let estConnect = true;
+let nom = "joseph";
+let estConnecte = true;
 let valeurNulle = null;
 let a;
 
 module.exports = {
   age,
-  name,
-  estConnect,
+  nom,
+  estConnecte,
   valeurNulle,
   a
 };
